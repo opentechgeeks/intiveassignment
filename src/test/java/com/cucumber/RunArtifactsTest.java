@@ -8,6 +8,6 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(tags={"@run"},
  glue = { "com.intive.stepDefinitions" }, plugin = { "pretty", "html:target/cucumber",
 		"json:target/cucumber.json" })
-public class RunArtifacts {
+public class RunArtifactsTest {
 
 }
